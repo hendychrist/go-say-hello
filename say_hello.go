@@ -5,5 +5,5 @@ func SayHello() string {
 }
 
 func SaySomething(name string) string {
-	return "Something just like this v2" + name
+	return "Something just like this v2 " + name
 }
