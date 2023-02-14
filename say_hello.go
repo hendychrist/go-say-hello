@@ -4,6 +4,6 @@ func SayHello() string {
 	return "Hello v1"
 }
 
-func SaySomething() string {
-	return "Something just like this v2"
+func SaySomething(name string) string {
+	return "Something just like this v2" + name
 }
